@@ -10,3 +10,11 @@ while True:
   if tries == 0:
     print("You Lost")
     break
+
+    
+var = "*"
+while True:
+  var = var + "*"
+  print(var)
+  if len(var) == 11:
+    break
